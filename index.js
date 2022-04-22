@@ -14,10 +14,9 @@
 // render
 // componentDidMount [ only in mounting ]
 // Updating :
-// static getDerivedStateFromProps
-// shouldComponentUpdate
+
 // render
-// getSnapshotBeforeUpdate
+
 // componentDidUpdate
 // Unmounting :
 // componentWillUnmount
@@ -39,24 +38,15 @@
 // Invoked immediately after a component and its child components have been rendered to DOM
 // Perform any AJAX call to load data.
 // Updating Phase
-// static getDerivedStateFromProps
-// Method is called every time a component is re-rendered.
-// set the state
-// Not perform, Http req.
-// shouldComponentUpdate
-// Dictates if the component should re-render or not.
-// Perfomance Optimization
-// Not perform, Http req.
+
 // Render
 // Only Required Method
 // Return JSX
 // Not perform, Http req.
-// getSnapshotBeforeUpdate() [Rarely Used]
-// Called right before the changes from the virtual DOM are to be reflected in the DOM.
-// Capture some Information From DOM
+
 // componentDidUpdate()
 // called after the render is finished in the re-render Cycles.
-// Unmounting Phase ( LAST WISH )
+// Unmounting Phase ( LAST WISH ) componente will unmount
 // Method is invoked immediately before a component is unmounted and destroyed.
 // Cancelling any network req. , also invalidating timers.
 // DO NOT CALL THE SetSTATE METHOD
